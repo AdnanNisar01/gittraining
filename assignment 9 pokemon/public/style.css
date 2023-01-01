@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#mainheader {
+    height: 70px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mainlist {
+    list-style: none;
+
+}
+
+.mainli {
+    display: inline;
+    margin-left: 10px;
+    /* text-align: center; */
+}
+
+.secli {
+    display: inline;
+    margin-left: 10px;
+    border: 1px solid green;
+    padding: 40px;
+    box-shadow: inset;
+}
+
+#picbox {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+#boxs {
+    display: table;
+}
+
+#boxtext1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-decoration: white;
+    background-color: rgba(141, 44, 231, 0.842);
+    box-sizing: border-box;
+    width: 550px;
+
+}
+
+#boxtext2 {
+    margin-top: 60px;
+    height: 150px;
+    background-color: rgba(28, 43, 29, 0.897);
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 320px;
+}
+
+#boxtext3 {
+    background-color: rgba(50, 218, 62, 0.822);
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 320px;
+}
+
+#secheader {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    text-align: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seclist {
+
+    list-style: none;
+}
+
+.secli:hover {
+    background-color: blue;
+}
